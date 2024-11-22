@@ -1,0 +1,33 @@
+.li-content{
+   background-color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.a-content{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.container-content{
+    display: flex;
+    height: 100vh;
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: center;
+}
+
+.ul-content{
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px;
+    height: 300px;
+    width: 300px;
+    background-color:blue;
+}

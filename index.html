@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuis Interaktif</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="coba.css">
+</head>
+<body>
+    <!-- Landing Page -->
+    <div id="landing-page" class="vh-100 d-flex flex-column justify-content-center align-items-center text-center bg-primary text-white">
+        <h1 class="mb-4 fw-bold">Selamat Datang di Kuis Interaktif</h1>
+        <p class="mb-4 lead">Uji pengetahuanmu dan dapatkan skor terbaik! Klik tombol di bawah untuk memulai.</p>
+        <button id="start-quiz" class="btn btn-lg btn-light text-primary fw-bold">Mulai Kuis</button>
+    </div>
+
+    <!-- Kuis -->
+    <div id="quiz-container" class="d-none vh-100 d-flex justify-content-center align-items-center bg-light">
+        <div class="card text-center p-4 shadow-lg quiz-card">
+            <h2 id="question" class="mb-4">Pertanyaan akan muncul di sini</h2>
+            <div id="options" class="row">
+                <!-- Opsi jawaban akan dimuat di sini -->
+            </div>
+            <button id="next" class="btn btn-primary mt-4 w-100">Lanjut</button>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

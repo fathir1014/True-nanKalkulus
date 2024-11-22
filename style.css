@@ -1,0 +1,186 @@
+*,
+html{
+  padding : 0;
+  margin : 0;
+}
+
+/* BAGIAN ATAS HOME */
+
+.bagian-atas-home{
+  width : 100% ;
+  background-color: rgb(58, 25, 201);
+  height : 15vh;
+  box-shadow: 5px 18px 37px 3px rgba(0,0,0,0.97);
+-webkit-box-shadow: 5px 18px 37px 3px rgba(0,0,0,0.97);
+-moz-box-shadow: 5px 18px 37px 3px rgba(0,0,0,0.97);
+}
+
+.ul-bagian-atas-home{
+  display : flex;
+  height : 60px;
+  justify-content : center;
+  align-items: center;
+  padding : 20px;
+}
+
+.li-bagian-atas-home{
+  padding : 10px;
+  margin : 15px;
+  font-size: 30px;
+  list-style-type: none;
+}
+
+.li-bagian-atas-home:hover{
+  background-color: rgb(177, 160, 160);
+  transition: .5s ease-in-out ;
+  transition-delay: .3s;
+  border-radius: 8px;
+}
+
+.a-bagian-atas-home{
+  color : white;
+  text-decoration: none;
+}
+
+/* BAGIAN ATAS HOME SELESAI  */
+
+/* BAGIAN ISI HOME  */
+
+.bagian-isi{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height : 80vh;
+}
+
+.a-gambar{
+ width: 450px;
+ height: 350px;
+ background-color: white;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border-radius: 20px;
+ box-shadow: -2px 7px 57px 19px rgba(0,0,0,0.97);
+ -webkit-box-shadow: -2px 7px 57px 19px rgba(0,0,0,0.97);
+ -moz-box-shadow: -2px 7px 57px 19px rgba(0,0,0,0.97);
+}
+
+.img-bagianisi{
+}
+
+/* BAGIAN BAWAH PROJECT */
+
+.bagianbawah{
+  background-color: rgb(58, 25, 201);
+  height: 10vh;
+  width : 100%;
+}
+
+.ul-bagianbawah-home{
+  display :flex;
+  justify-content: center;
+  align-items: center;
+  height:30%;
+}
+
+.li-bagianbawah-home{
+  list-style-type: none;
+  height : 30%;
+}
+
+.a-bagianbawah-home{
+  color : white ; 
+  font-size: 50px;
+}
+
+/* ///////////////////////////////////////////////////////////INI ADALAH BAGIAN MATERI DAN KUIS */
+
+.bagian-atas-materi{
+  width : 100% ;
+  background-color: rgb(58, 25, 201);
+  height : 30%;
+}
+
+.ul-bagian-atas-materi{
+  display : flex;
+  height : 60px;
+  justify-content : center;
+  align-items: center;
+  padding : 20px;
+}
+
+.li-bagian-atas-materi{
+  padding : 10px;
+  margin : 15px;
+  font-size: 30px;
+  list-style-type: none;
+}
+
+.li-bagian-atas-materi:hover{
+  background-color: gray;
+  transition: .5s ease-in-out ;
+  transition-delay: .3s;
+  border-radius: 8px;
+}
+
+.a-bagian-atas-materi{
+  color : white;
+  text-decoration: none;
+}
+
+ /* BAGIAN ISI MATERI  */
+
+ .bagian-isi-materi{
+  background-color: white;
+  height: 80vh;
+  width : 100%;
+  display :contents;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .ul-bagianisi-materi{
+  display :flex;
+  justify-content: left;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  list-style-type: none;
+ }
+
+ .li-bagianisi-materi{
+  display :flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+
+ }
+
+ .a-bagianisi-materi{
+  color : black;
+  font-size: 30px;
+  
+ }
+
+ .a-bagianisi-header-materi{
+  display: contents;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color : black;
+ }
+
+ /* group 1---------------------------------------------- */
+
+ .group-1{
+  font-size: 50px;
+  color : black;
+  display: flex;
+  display: contents;
+  justify-content:center;
+  background-color: aqua;
+ }

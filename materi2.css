@@ -1,0 +1,415 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya untuk body */
+body {
+    font-family: 'Arial', sans-serif; /* Menggunakan font yang lebih mudah dibaca */
+    line-height: 1.8; /* Jarak antar baris yang lebih baik */
+    background-color: #f4f4f4; /* Warna latar belakang yang lembut */
+    color: #333;
+    padding: 30px; /* Menambah padding untuk ruang putih */
+}
+.bagian-atas-home{
+    width : 100% ;
+    background-color: lightblue;
+    height : 22vh;
+    box-shadow: 5px 18px 37px 3px rgba(0,0,0,0.97);
+  -webkit-box-shadow: 5px 18px 37px 3px rgba(0,0,0,0.97);
+  -moz-box-shadow: 5px 18px 37px 3px rgba(0,0,0,0.97);
+  text-align: center;
+  color: black;
+  }
+
+    
+  
+  .ul-bagian-atas-home{
+    display : flex;
+    height : 60px;
+    justify-content : center;
+    align-items: center;
+    padding : 20px;
+  }
+  
+  .li-bagian-atas-home{
+    padding : 10px;
+    margin : 15px;
+    font-size: 30px;
+    list-style-type: none;
+    align-items: center;
+  }
+  
+  .li-bagian-atas-home:hover{
+    background-color: rgb(177, 160, 160);
+    transition: .5s ease-in-out ;
+    transition-delay: .3s;
+    border-radius: 8px;
+  }
+  
+  .a-bagian-atas-home{
+    color : black;
+    text-decoration: none;
+  }
+  
+  /* BAGIAN ATAS HOME SELESAI  */
+
+
+/* Gaya untuk judul */
+.container {
+    text-align: center;
+    margin: 30px 0; /* Menambah margin */
+}
+
+.title {
+    font-size: 3em; /* Ukuran font lebih besar */
+    color: #333;
+    text-shadow: none; /* Menghapus bayangan */
+}
+
+/* Gaya untuk materi */
+.materi {
+    background: white;
+    padding: 30px; /* Menambah padding */
+    border-radius: 50px; /* Menambah radius */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Menambah bayangan lembut */
+    transition: transform 0.3s ease;
+}
+
+.materi:hover {
+    transform: translateY(-5px); /* Efek angkat lebih halus */
+}
+
+.materi h2 {
+    color: #007BFF; /* Warna biru untuk sub-judul */
+    margin-top: 20px; /* Menambah margin */
+    border-bottom: 2px solid #007BFF; /* Garis bawah lebih tebal */
+    padding-bottom: 5px; /* Menambah padding */
+}
+
+.materi h3 {
+    color: #555; /* Warna abu-abu untuk sub-sub-judul */
+    margin-top: 15px; /* Menambah margin */
+}
+
+.materi p {
+    margin: 10px 0; /* Menambah margin */
+    line-height: 1.8; /* Jarak antar baris yang lebih baik */
+}
+
+.materi ul {
+    margin: 10px 0; /* Menambah margin */
+    padding-left: 20px; /* Menambah padding */
+}
+
+.materi code {
+    background-color: #f4f4f4;
+    padding: 5px 8px; /* Menambah padding */
+    border-radius: 5px; /* Menambah radius */
+    font-family: monospace;
+}
+
+/* Gaya untuk responsif */
+@media (max-width: 768px) {
+    .title {
+        font-size: 2.5em; /* Ukuran font lebih kecil untuk layar sedang */
+    }
+
+    .materi {
+        padding: 20px; /* Padding lebih kecil untuk layar kecil */
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 2em; /* Ukuran font lebih kecil untuk layar kecil */
+    }
+
+    .materi {
+        padding: 15px; /* Padding lebih kecil untuk layar kecil */
+    }
+}
+
+header {
+    height: 50vh; /* Tinggi default */
+    background-color: lightblue; /* Contoh warna latar belakang */
+}
+
+@media (min-width: 768px) {
+    header {
+        height: 100vh; /* Tinggi untuk layar lebih besar */
+    }
+}
+
+/* Gaya untuk bagian bawah materi */
+.bawah-materi {
+    background-color: #f9f9f9; /* Warna latar belakang yang lembut */
+    padding: 20px; /* Menambah padding */
+    border-radius: 6px; /* Menambah radius */
+    box-shadow : 0 1px 5px rgba(0, 0, 0, 0.1); /* Menambah bayangan lembut */
+    text-align : center; /* Menyusun teks di tengah */
+}
+
+.bawah-materi p {
+    color: #666; /* Warna teks yang lebih lembut */
+    margin: 10px 0; /* Menambah margin */
+}
+
+.bawah-materi a {
+    color: #007BFF; /* Warna tautan */
+    text-decoration: none; /* Menghapus garis bawah */
+    font-weight: bold; /* Menebalkan teks */
+}
+
+.bawah-materi a:hover {
+    text-decoration: underline; /* Garis bawah saat hover */
+}
+/* Gaya untuk footer */
+.footer {
+    background-color: #333; /* Warna latar belakang gelap */
+    color: white; /* Warna teks putih */
+    text-align: center; /* Menyusun teks di tengah */
+    padding: 20px; /* Menambah padding */
+    position: relative; /* Posisi relatif untuk penataan */
+    bottom: 0; /* Menempel di bagian bawah */
+    width: 100%; /* Lebar penuh */
+}
+
+.footer p {
+    margin: 10px 0; /* Menambah margin */
+    font-size: 0.9em; /* Ukuran font lebih kecil */
+}
+
+.footer a {
+    color: #ffd700; /* Warna emas untuk tautan */
+    text-decoration: none; /* Menghapus garis bawah */
+}
+
+.footer a:hover {
+    text-decoration: underline; /* Garis bawah saat hover */
+}
+
+/* Gaya untuk tombol */
+.button {
+    background-color: #28a745; /* Warna hijau */
+    color: white; /* Warna teks putih */
+    padding: 10px 20px; /* Menambah padding */
+    border: none; /* Menghapus border */
+    border-radius: 5px; /* Menambah radius */
+    cursor: pointer; /* Menunjukkan kursor pointer */
+    transition: background-color 0.3s ease; /* Transisi halus */
+}
+
+.button:hover {
+    background-color: #218838; /* Warna hijau lebih gelap saat hover */
+}
+
+/* Gaya untuk form */
+.form {
+    background: white; /* Warna latar belakang putih */
+    padding: 20px; /* Menambah padding */
+    border-radius: 10px; /* Menambah radius */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Menambah bayangan lembut */
+}
+
+.form input, .form textarea {
+    width: 100%; /* Lebar penuh */
+    padding: 10px; /* Menambah padding */
+    margin: 10px 0; /* Menambah margin */
+    border: 1px solid #ccc; /* Border abu-abu */
+    border-radius: 5px; /* Menambah radius */
+}
+
+.form input:focus, .form textarea:focus {
+    border-color: #007BFF; /* Warna border biru saat fokus */
+    outline: none; /* Menghapus outline */
+}
+
+/* Gaya untuk alert */
+.alert {
+    padding: 15px; /* Menambah padding */
+    margin: 20px 0; /* Menambah margin */
+    border-radius: 5px; /* Menambah radius */
+}
+
+.alert.success {
+    background-color: #d4edda; /* Warna latar belakang hijau muda */
+    color: #155724; /* Warna teks hijau gelap */
+}
+
+.alert.error {
+    background-color: #f8d7da; /* Warna latar belakang merah muda */
+    color: #721c24; /* Warna teks merah gelap */
+}
+
+/* Gaya untuk tabel */
+.table {
+    width: 100%; /* Lebar penuh */
+    border-collapse: collapse; /* Menghapus jarak antar border */
+    margin: 20px 0; /* Menambah margin */
+}
+
+.table th, .table td {
+    border: 1px solid #ddd; /* Border abu-abu */
+    padding: 12px; /* Menambah padding */
+    text-align: left; /* Menyusun teks ke kiri */
+}
+
+.table th {
+    background-color: #007BFF; /* Warna biru untuk header */
+    color: white; /* Warna teks putih */
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Warna latar belakang untuk baris genap */
+}
+
+.table tr:hover {
+    background-color: #ddd; /* Warna latar belakang saat hover */
+}
+
+/* Gaya untuk breadcrumb */
+.breadcrumb {
+    padding: 10px 0; /* Menambah padding */
+    background-color: #f9f9f9; /* Warna latar belakang yang lembut */
+    border-radius: 5px; /* Menambah radius */
+}
+
+.breadcrumb a {
+    color: #007BFF; /* Warna tautan biru */
+    text-decoration: none; /* Menghapus garis bawah */
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline; /* Garis bawah saat hover */
+}
+
+.breadcrumb span {
+    margin: 0 5px; /* Menambah margin */
+}
+
+/* Gaya untuk modal */
+.modal {
+    display: none; /* Tersembunyi secara default */
+    position: fixed; /* Posisi tetap */
+    z-index: 1000; /* Di atas elemen lain */
+    left: 0;
+    top: 0;
+    width: 100%; /* Lebar penuh */
+    height: 100%; /* Tinggi penuh */
+    overflow: auto; /* Mengizinkan scroll */
+    background-color: rgba(0, 0, 0, 0.5); /* Latar belakang gelap transparan */
+}
+
+.modal-content {
+    background-color: #fefefe; /* Warna latar belakang putih */
+    margin: 15% auto; /* Margin otomatis untuk pusat */
+    padding: 20px; /* Menambah padding */
+    border: 1px solid #888; /* Border abu-abu */
+    width: 80%; /* Lebar 80% */
+    border-radius: 10px; /* Menambah radius */
+}
+
+/* Gaya untuk tombol tutup modal */
+.close {
+    color: #aaa; /* Warna abu-abu */
+    float: right; /* Menyusun ke kanan */
+    font-size: 28px; /* Ukuran font lebih besar */
+    font-weight: bold; /* Menebalkan teks */
+}
+
+.close:hover,
+.close:focus {
+    color: black; /* Warna hitam saat hover */
+    text-decoration: none; /* Menghapus garis bawah */
+    cursor: pointer; /* Menunjukkan kursor pointer */
+}
+
+/* Gaya untuk tooltip */
+.tooltip {
+    position: relative; /* Posisi relatif untuk penataan */
+    display: inline-block; /* Menampilkan sebagai elemen inline */
+    cursor: pointer; /* Menunjukkan kursor pointer */
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden; /* Tersembunyi secara default */
+    width: 120px; /* Lebar tooltip */
+    background-color: #555; /* Warna latar belakang gelap */
+    color: #fff; /* Warna teks putih */
+    text-align: center; /* Menyusun teks di tengah */
+    border-radius: 6px; /* Menambah radius */
+    padding: 5px; /* Menambah padding */
+    position: absolute; /* Posisi absolut */
+    z-index: 1; /* Di atas elemen lain */
+    bottom: 125%; /* Menempatkan di atas elemen */
+    left: 50%; /* Menempatkan di tengah */
+    margin-left: -60px; /* Menggeser ke kiri */
+    opacity: 0; /* Transparan */
+    transition: opacity 0.3s; /* Transisi halus */
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible; /* Menampilkan saat hover */
+    opacity: 1; /* Menjadikan terlihat */
+}
+
+/* Gaya untuk pagination */
+.pagination {
+    display: flex; /* Menampilkan sebagai flex container */
+    justify-content: center; /* Menyusun di tengah */
+    margin: 20px 0; /* Menambah margin */
+}
+
+.pagination a {
+    color: #007BFF; /* Warna tautan biru */
+    padding: 8px 16px; /* Menambah padding */
+    text-decoration: none; /* Menghapus garis bawah */
+    border: 1px solid #ddd; /* Border abu-abu */
+    margin: 0 4px; /* Menambah margin */
+    border-radius: 5px; /* Menambah radius */
+}
+
+.pagination a:hover {
+    background-color: #ddd; /* Warna latar belakang saat hover */
+}
+
+/* Gaya untuk card */
+.card {
+    background: white; /* Warna latar belakang putih */
+    border-radius: 10px; /* Menambah radius */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Menambah bayangan lembut */
+    margin: 20px; /* Menambah margin */
+    padding: 20px; /* Menambah padding */
+}
+
+.card h3 {
+    margin-bottom: 15px; /* Menambah margin bawah */
+    color: #333; /* Warna teks */
+}
+
+.card p {
+    color: #666; /* Warna teks lebih lembut */
+}
+
+/* Gaya untuk breadcrumb */
+.breadcrumb {
+    padding: 10px 0; /* Menambah padding */
+    background-color: #f9f9f9; /* Warna latar belakang yang lembut */
+    border-radius: 5px; /* Menambah radius */
+}
+
+.breadcrumb a {
+    color: #007BFF; /* Warna tautan biru */
+    text-decoration: none; /* Menghapus garis bawah */
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline; /* Garis bawah saat hover */
+}
+
+.breadcrumb span {
+    margin: 0 5px; /* Menambah margin */
+}
